@@ -28,7 +28,7 @@ body {
   background: inherit;
   position: absolute;
   border-radius: 15px;
-  border: 1px solid rgba(43, 43, 43, 0.568);
+  /* border: 1px solid rgba(43, 43, 43, 0.568); */
   overflow: hidden; /*so that the part of overlay going outside the wrapper gets hidden*/
 }
 
