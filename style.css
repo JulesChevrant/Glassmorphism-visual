@@ -12,4 +12,14 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  background-attachment: fixed
+}
+
+.wrapper {
+  height: 320px;
+  width: 600px;
+  background: inherit;
+  position: absolute;
+  border-radius: 15px;
+  border: 1px solid rgba(43, 43, 43, 0.568);
 }
