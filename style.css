@@ -7,6 +7,10 @@ body, html {
   height: 100vh;
 }
 
+h1 {
+  color: white;
+}
+
 body {
   background-image: url(images/mountain-day.jpg);
   background-size: cover;
@@ -41,4 +45,8 @@ body {
   box-shadow: inset 0 0 0 3000px rgba(150, 150, 150, 0.2); /*To apply an overlay*/
   filter: blur(10px); /*To blur the overlay*/
   border-radius: 15px;
+}
+
+.content {
+  position: absolute;
 }
