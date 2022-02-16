@@ -5,10 +5,12 @@
 
 body, html {
   height: 100vh;
+  font-family: 'Poppins', sans-serif;
 }
 
 h1 {
   color: white;
+  font-size: 28px;
 }
 
 body {
@@ -49,4 +51,7 @@ body {
 
 .content {
   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
 }
